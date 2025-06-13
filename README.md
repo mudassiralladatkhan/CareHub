@@ -1,90 +1,103 @@
-# Define the output path for the README markdown file
-output_path = "/mnt/data/README_CareHub360.md"
+# Define the output path for the markdown file
+md_output_path = "/mnt/data/CareHub360_README.md"
 
-# Save the updated README content to a .md file
-with open(output_path, "w") as f:
-    f.write("""# 💊 CareHub360-24/7 — Enterprise-Grade Healthcare Management Platform
+# Get the updated README content from the canvas document
+readme_text = """
+# 💊 CareHub360-24/7 — Enterprise-Grade Healthcare Management Platform
 
-![CareHub360 Banner](https://user-images.githubusercontent.com/00000000/banner-carehub360.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/00000000/banner-carehub360.png" width="100%" />
+</p>
 
-> A modern, pharmacy-grade SaaS platform tailored for hospitals, clinics, diagnostic labs, and healthcare networks. Fully powered by no-code technologies, offering seamless workflows, advanced role-based controls, real-time features, and AI-powered analytics — wrapped in a beautiful, intuitive interface.
+> 🚀 A next-gen, pharmacy-grade SaaS platform for hospitals, clinics, diagnostic labs, and healthcare ecosystems — empowering 24/7 healthcare delivery with precision, automation, and elegance.
 
 ---
 
 ## 🏥 Overview
-CareHub360-24/7 is a full-stack, production-ready health-tech solution built to streamline every aspect of clinical operations. It features an advanced UI/UX, secure backend, and complete module connectivity:
+CareHub360-24/7 is a cutting-edge, full-stack health-tech solution designed to streamline hospital operations and digital care delivery.
 
-🔹 Role-based control for 8 distinct medical and administrative personas  
-🔹 Real-time workflows & data visualizations  
-🔹 Full CRUD & API integrations for every department  
-🔹 AI insights for patient care, billing, and staff planning  
-🔹 Ultra-clean and responsive user experience built using Windsurf + Supabase
+✨ Highlights:
+- Multi-role access: SuperAdmin, Admin, Doctor, Nurse, Lab Tech, Pharmacist, Billing Staff, Patient
+- Fully responsive, animated UI with intelligent workflows
+- Role-based routing with JWT security
+- Smart dashboards, real-time interactions, and AI-powered analytics
 
 ---
 
 ## 🧩 Features Breakdown
 
-### 🔐 Authentication & Role Access
-- ✅ JWT login authentication
-- ✅ Secure password encryption with bcrypt
-- ✅ Role-based page access and redirects
-- ✅ Patient self-registration + Admin-controlled staff assignments
+### 🔐 Authentication & Access Control
+- 🔒 JWT Auth + bcrypt encryption
+- 🔁 Role-based redirection post login
+- 🆕 Patient self-registration
+- 🔧 Admin panel for role assignment
 
 ### 🩺 Core Healthcare Modules
-
-| Module           | Key Features                                                                 |
-|------------------|------------------------------------------------------------------------------|
-| Appointments     | Booking, schedule management, doctor assignment, live countdown for patients |
-| Prescriptions    | Medication management, renewals, dosage tracker                              |
-| Billing          | Invoice creation, payment tracking, PDF exports                             |
-| Lab Reports      | Upload reports, file viewer, approval workflow                              |
-| Staff Directory  | Role-based CRUD operations, status toggles, search/filter                   |
-| Notifications    | Realtime updates, toast alerts, role-filtered messages                      |
-| Audit Logs       | System-wide activity tracker for transparency                               |
-| AI Analytics     | Smart visual insights into performance, workload, and predictions            |
-| Health Records   | Centralized medical profiles for doctors/patients                          |
+| 📌 Module         | 🔎 Highlights |
+|------------------|--------------|
+| Appointments     | Booking, live countdown, doctor assignments |
+| Prescriptions    | Create, renew, dosage tracking |
+| Billing          | Invoice generation, payment logs, PDF-ready |
+| Lab Reports      | File uploads, status approval, previews |
+| Staff Directory  | CRUD staff, filters, toggles |
+| Notifications    | Real-time updates via toast alerts |
+| Audit Logs       | User action tracking & transparency |
+| AI Analytics     | Data-driven visuals, forecasts & suggestions |
+| Health Records   | Patient medical history & record browser |
 
 ### 🧠 AI Modules
-- 📈 Appointment Forecast (Line Chart)  
-- 🧠 Diagnosis Suggestion Engine (Expandable Cards)  
-- 💸 Revenue Trends (Area Chart)  
-- 📊 No-Show Risk Meter (Gauge)  
-- 🔥 Staff Load Forecast (Heatmap)
+- 📈 Appointment Load Forecasts
+- 🧠 Smart Diagnosis Recommendations
+- 💸 Revenue Trend Graphs
+- 📊 No-Show Risk Meters
+- 🔥 Staff Workload Heatmaps
 
 ---
 
 ## 🎨 UI/UX & Interaction Design
 
-🖌️ Designed with precision to emulate real SaaS healthcare interfaces:
+🖌️ Premium design system engineered for clarity & efficiency:
+- ✨ TailwindCSS + Framer Motion: seamless transitions
+- 🎛️ Zustand + ShadCN: state management & UI structure
+- 🎨 Clean, healthcare-oriented theme (teal/white)
+- 🌗 Dark/Light theme toggle
+- 📱 Mobile-first, responsive layout
+- 🧭 Animated role-aware sidebar
 
-- 💅 TailwindCSS + Framer Motion for smooth transitions
-- 🎛️ ShadCN + Zustand for component state and modularity
-- 🎨 Soft color palette with healthcare teal/white accents
-- 🌗 Dark/Light mode support
-- 📱 Fully mobile-first responsive
-- 🧭 Dynamic sidebar with sliding animation and role-based visibility
-
-![Dashboard Screenshot](https://user-images.githubusercontent.com/00000000/carehub-dashboard.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/00000000/carehub-dashboard.png" width="90%" />
+</p>
 
 ---
 
 ## ⚙️ Tech Stack Snapshot
 
-| Layer         | Technology                              |
-|---------------|------------------------------------------|
-| Frontend      | React, Tailwind CSS, Framer Motion       |
-| State Manager | Zustand                                  |
-| Routing       | React Router v6                          |
-| Backend       | Supabase REST API + RLS                  |
-| File Storage  | Supabase Storage                         |
-| Charts        | Recharts                                 |
-| Icons         | Lucide Icons                             |
-| Auth          | JWT, bcrypt                              |
+| Layer         | Technology                          |
+|---------------|--------------------------------------|
+| 💻 Frontend    | React, Tailwind CSS, Framer Motion   |
+| 🧠 State       | Zustand                              |
+| 🔁 Routing     | React Router v6                      |
+| 🔐 Backend API | Supabase REST + RLS                  |
+| 🗂️ Storage     | Supabase File Storage                |
+| 📊 Charts      | Recharts                             |
+| 🧩 Icons       | Lucide Icons                         |
+| 🔒 Auth        | JWT, bcrypt                          |
 
 ---
 
 ## 🚀 Getting Started Locally
 
-1️⃣ Clone the project:
 ```bash
-git clone https://github.com/Zainskhan1429/CareHub.git
+# 1. Clone Repo
+$ git clone https://github.com/Zainskhan1429/CareHub.git
+
+# 2. Install Dependencies
+$ npm install
+
+# 3. Setup Environment
+# .env file
+VITE_SUPABASE_URL=https://tafwrgblqonzihpjalsq.supabase.co
+VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRhZndyZ2JscW9uemlocGphbHNxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk4NDg3MTEsImV4cCI6MjA2NTQyNDcxMX0.kGi9GstGGuM9jHYe77fQvswYtUZyjxvVYIckJKNdgMI
+
+# 4. Run Project
+$ npm run dev
